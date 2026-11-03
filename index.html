@@ -39,19 +39,31 @@
 </header>
     <hr>
 
-   <h2 id="about">About Me</h2>
+   
     
-<p>
-I am a third-year <strong>Software Engineering</strong> student.
-I <em>really</em> enjoy learning programming.
-My goal is to <mark>become a professional developer and business girl</mark>.
-</p>
-<body>
+<main>
 
-    <!-- Your existing portfolio content -->
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
 
-    <section id="cv">
-        <h2>My CV</h2>
+        <p>
+            I am a third-year <strong>Software Engineering</strong> student.
+            I <em>really</em> enjoy learning programming.
+            My goal is to <mark>become a professional developer and business girl</mark>.
+        </p>
+
+        <p>
+            Languages I have used:
+            <b>C++</b>, <b>HTML</b> and <i>a little</i> JavaScript.
+        </p>
+
+        <p>
+            I am a 3<sup>rd</sup> year student.
+            I drink H<sub>2</sub>O while studying my lesson every day.
+        </p>
+
+        <h3>My CV</h3>
         <p>You can view or download my CV below.</p>
 
         <a href="files/cv.pdf" target="_blank" rel="noopener noreferrer">
@@ -65,117 +77,168 @@ My goal is to <mark>become a professional developer and business girl</mark>.
         </a>
     </section>
 
-</body>
 
-<p>
-Languages I have used:
-<b>C++</b>, <b>HTML</b> and <i>a little</i> JavaScript.
-</p>
+    <!-- ASIDE SECTION -->
+    <aside>
+        <h2>What Inspires Me</h2>
 
-<p>
-I am a 3<sup>rd</sup> year student.
-I drink H<sub>2</sub>O while studying my lesson every day.
-</p>
-<hr>
+        <blockquote>
+            "It always seems impossible until it is done."
+            — Nelson Mandela
+        </blockquote>
 
-<h2>What Inspires Me</h2>
+        <p>
+            My favourite advice is
+            <q>Be yourself</q>.
+        </p>
 
-<blockquote>
-"It always seems imposible until it is done."
-— Nelson Mandela
-</blockquote>
+        <p>
+            Book I am reading:
+            <cite>Atomic Habits</cite> by James Clear.
+        </p>
+    </aside>
 
-<p>
-My favourite advice is
-<q>Be your self</q>.
-</p>
 
-<p>
-Book I am reading:
-<cite>Atomic Habit</cite> by James clear.
-</p>
-<hr>
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2>Skills</h2>
 
-    <h2 id="skills">Skills</h2>
-    <h3>Programming Languages</h3>
-<ul>
-    
-    <li>C++</li>
-    <li>Java</li>
-</ul>
+        <h3>Programming Languages</h3>
+        <ul>
+            <li>C++</li>
+            <li>Java</li>
+        </ul>
 
-<h3>Web Development</h3>
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-</ul>
+        <h3>Web Development</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
 
-<h3>Soft Skills</h3>
-<ul>
-    <li>Teamwork</li>
-    <li>Communication</li>
-    <li>Problem Solving</li>
-</ul>
-<h2>My Learning Roadmap</h2>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+        </ul>
 
-<ol>
-    <li>Learn HTML</li>
-    <li>Learn CSS</li>
-    <li>Learn JavaScript</li>
-    <li>Learn database management</li>
-    <li>Build and deploy websites</li>
-</ol>
-<h2>Tools I Use</h2>
+        <h3>My Learning Roadmap</h3>
+        <ol>
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+            <li>Learn database management</li>
+            <li>Build and deploy websites</li>
+        </ol>
 
-<dl>
-    <dt>Visual Studio Code</dt>
-    <dd>A code editor I use to write and edit programs.</dd>
+        <h3>Tools I Use</h3>
+        <dl>
+            <dt>Visual Studio Code</dt>
+            <dd>A code editor I use to write and edit programs.</dd>
 
-    <dt>Google Chrome</dt>
-    <dd>A web browser I use to test my websites.</dd>
+            <dt>Google Chrome</dt>
+            <dd>A web browser I use to test my websites.</dd>
 
-    <dt>Git and GitHub</dt>
-    <dd>Tools I use to track and manage my project versions.</dd>
-</dl>
-    <hr>
+            <dt>Git and GitHub</dt>
+            <dd>Tools I use to track and manage my project versions.</dd>
+        </dl>
+    </section>
 
-    <h2 id="projects">Projects</h2>
 
-    <h3>guess the number game</h3>
-    <img src="images/guess number.jpg" 
-     alt="Screenshot of guess number project" 
-     width="400" height="250">
-    <p>A program that is used to play guessing a number game.</p>
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2>Projects</h2>
 
-    <h3>parity checker</h3>
-    <img src="images/even or odd.jpg"
-     alt="Screenshot of even or odd"
-     width="400" height="250">
-    <p>A system that check whether a number is even or odd.</p>
-    <h3>My First Program</h3>
+        <article>
+            <h3>Guess the Number Game</h3>
 
-<p>
-My first Python program was
-<code>print("Hello, World!")</code>.
-</p>
+            <img src="images/guess number.jpg"
+                 alt="Screenshot of guess number project"
+                 width="400" height="250">
 
-<pre><code>
+            <p>A program that is used to play a number guessing game.</p>
+        </article>
+
+        <article>
+            <h3>Parity Checker</h3>
+
+            <img src="images/even or odd.jpg"
+                 alt="Screenshot of even or odd"
+                 width="400" height="250">
+
+            <p>A system that checks whether a number is even or odd.</p>
+        </article>
+
+        <article>
+            <h3>My First Program</h3>
+
+            <p>
+                My first Python program was
+                <code>print("Hello, World!")</code>.
+            </p>
+
+            <pre><code>
 for i in range(3):
     print("Hello", i)
-</code></pre>
-<p>
-    <a href="projects.html">See all my projects</a>
-</p>
+            </code></pre>
+        </article>
 
-<hr>
+        <p>
+            <a href="projects.html">See all my projects</a>
+        </p>
+    </section>
 
-    <hr>
 
-    <h2 id="education">Education</h2>
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+        <h2>Education</h2>
 
-    <h3>BSc in Software Engineering</h3>
-    <p>Addis Ababa Science and Technology University.</p>
+        <h3>BSc in Software Engineering</h3>
+
+        <p>Addis Ababa Science and Technology University.</p>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            Address:<br>
+            Addis Ababa,<br>
+            Ethiopia
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:kidest.tesfaye@aastu.edu.et">
+                kidest.tesfaye@aastu.edu.et
+            </a>
+        </p>
+
+        <p>
+            Phone:
+            <a href="tel:+251967031373">+251 967031373</a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/kido2116">
+                kido2116
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/">
+                kidest
+            </a>
+        </p>
+
+    </section>
+
+</main>
 <h3>Academic Record</h3>
 
 <table border="1" cellpadding="8" cellspacing="0">
@@ -232,43 +295,7 @@ for i in range(3):
         </tr>
     </tfoot>
 </table>
-    <hr>
-
-    <h2 id="contact">Contact</h2>
-
-<p>Address:<br>
-Addis Ababa,<br>
-Ethiopia</p>
-
-<p>
-Email:
-<a href="mailto:your.email@example.com">
-kidest.tesfaye@aastu.edu.et
-</a>
-</p>
-
-<p>
-Phone:
-<a href="tel:+2519XXXXXXXX">+251 967031373</a>
-</p>
-
-<p>
-GitHub:
-<a href="https://github.com/YOUR-USERNAM">
-kido2116
-</a>
-</p>
-
-<p>
-LinkedIn:
-<a href="https://www.linkedin.com/">
-kidest
-</a>
-</p>
-
-<p>
-<a href="files/cv.pdf" download>Download my CV (PDF)</a>
-</p>
+    
 <img src="images/connect-banner.jpg"
      alt="Connect with me through GitHub, LinkedIn, or email"
      width="600" height="200"
