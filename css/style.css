@@ -125,3 +125,102 @@ legend ~ label {
     font-weight: 600;
 }
 
+/* ---------- Forms ---------- */
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    border: 2px solid #1f5fa8;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+abbr[title] {
+    cursor: help;
+    text-decoration: underline dotted;
+}
+
+[class*="btn"] {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ---------- Link icons ---------- */
+
+a[href^="https"]::after {
+    content: " ↗";
+}
+
+a[href^="mailto"]::before {
+    content: "✉ ";
+}
+
+a[href^="tel"]::before {
+    content: "☎ ";
+}
+
+a[download]::before {
+    content: "⬇ ";
+}
+
+h2::before {
+    content: "// ";
+    color: hsl(37, 91%, 55%);
+}
+
+h2 + p::first-line {
+    font-weight: 600;
+}
+
+/* ---------- Link states ---------- */
+
+a:link {
+    color: #1f5fa8;
+}
+
+a:visited {
+    color: #6a3fa0;
+}
+
+a:hover {
+    color: hsl(37, 91%, 45%);
+    text-decoration: underline;
+}
+
+a:active {
+    color: #b03a2e;
+}
+
+/* ---------- Button hover ---------- */
+
+.btn:hover {
+    background-color: #174a84;
+}
+
+.btn-secondary:hover {
+    background-color: #445566;
+}
+
+/* ---------- Positions ---------- */
+
+ol li:first-child {
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eef2f7;
+}
+
+/* Your turn exercises */
+
+.card:hover {
+    background-color: #f4f6f9;
+}
+
+a[href$=".html"]::after {
+    content: " →";
+}
+
