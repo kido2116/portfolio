@@ -44,11 +44,8 @@ rel="stylesheet">
          width="200"
          height="200">
 
-    <p>Software Engineering student and aspiring web developer.</p>
-<button type="button"
-onclick="document.getElementById('hireDialog').showModal()">
-    Hire me
-</button>
+   <p class="tagline">Software Engineering student and aspiring web developer.</p>
+<button type="button" class="btn" onclick="your-existing-code">Hire me</button>
 
 <dialog id="hireDialog">
     <h2>Available for internships</h2>
@@ -230,7 +227,7 @@ where the important content is &amp; helps screen readers.</p>
     <section id="projects">
         <h2>Projects</h2>
 
-        <article>
+        <articleclass="card">
             <h3>Guess the Number Game</h3>
 
             <img src="images/guess number.jpg"
@@ -240,7 +237,7 @@ where the important content is &amp; helps screen readers.</p>
             <p>A program that is used to play a number guessing game.</p>
         </article>
 
-        <article>
+        <articleclass="card" >
             <h3>Parity Checker</h3>
 
             <img src="images/even or odd.jpg"
@@ -250,7 +247,7 @@ where the important content is &amp; helps screen readers.</p>
             <p>A system that checks whether a number is even or odd.</p>
         </article>
 
-        <article>
+        <article class="card">
             <h3>My First Program</h3>
 
             <p>
@@ -426,8 +423,8 @@ min="1000" step="500">
 <label for="copy">Send me a copy of this message</label>
     </fieldset>
 
-    <button type="submit">Send Message</button>
-    <button type="reset">Clear</button>
+    <button type="submit" class="btn">Send Message</button>
+    <button type="reset" class="btn btn-secondary">Clear</button>
 
 </form>
 

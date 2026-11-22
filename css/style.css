@@ -1,3 +1,6 @@
+
+/* ---------- Body ---------- */
+
 body {
     background-color: #f4f6f9;
     color: #22313f;
@@ -5,14 +8,8 @@ body {
     font-size: 1rem;
     line-height: 1.6;
 }
-}
 
 /* ---------- Colours ---------- */
-
-body {
-    background-color: #f4f6f9;
-    color: #22313f;
-}
 
 h1 {
     color: #1f5fa8;
@@ -36,12 +33,24 @@ html {
     font-size: 16px;
 }
 
+/* ---------- Headings ---------- */
+
+h1, h2, h3 {
+    line-height: 1.2;
+    font-weight: 600;
+}
+
 h1 {
     font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
     font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h3 {
@@ -49,18 +58,6 @@ h3 {
 }
 
 /* ---------- Text properties ---------- */
-
-h1 {
-    text-align: center;
-    font-weight: 700;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-h2 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 600;
-}
 
 a {
     color: #1f5fa8;
@@ -75,3 +72,56 @@ blockquote {
 code, pre {
     font-family: 'Courier New', monospace;
 }
+
+/* ---------- Components ---------- */
+
+.tagline {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #5a6b7d;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background-color: #1f5fa8;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: #5a6b7d;
+}
+
+.card {
+    background-color: white;
+}
+
+/* ---------- ID Selectors ---------- */
+
+#contact {
+    background-color: #e8eef6;
+}
+
+/* ---------- Combinators ---------- */
+
+nav a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.card > p {
+    color: #5a6b7d;
+}
+
+h2 + p {
+    font-size: 1.1rem;
+}
+
+legend ~ label {
+    font-weight: 600;
+}
+
