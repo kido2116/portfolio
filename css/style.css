@@ -8,7 +8,15 @@ body {
     font-size: 1rem;
     line-height: 1.6;
 }
+/* ---------- Reset ---------- */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
 /* ---------- Colours ---------- */
 
 h1 {
@@ -108,6 +116,10 @@ code, pre {
 /* ---------- Combinators ---------- */
 
 nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border: 2px solid #1f5fa8;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -136,6 +148,13 @@ textarea {
     border: 2px solid #1f5fa8;
     font-family: inherit;
     font-size: 1rem;
+    padding: 0.4rem;
+}
+
+fieldset {
+    margin: 0 0 1rem;
+    padding: 1rem;
+    border: 2px solid #d5dde8;
 }
 
 abbr[title] {
@@ -223,4 +242,94 @@ tbody tr:nth-child(even) {
 a[href$=".html"]::after {
     content: " →";
 }
+/* ---------- Layout ---------- */
 
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+}
+/* ---------- Images ---------- */
+
+#logo,
+header img {
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+header img {
+    border: 4px solid white;
+    border-radius: 50%;
+}`` 
+label[for^="lvl"] {
+    display: inline-block;
+    width: 7rem;
+}
+/* ---------- Sections and Cards ---------- */
+
+section,
+aside {
+    margin: 2rem 0;
+    padding: 1.5rem;
+}
+
+aside {
+    border-left: 6px solid hsl(37, 91%, 55%);
+}
+
+.card {
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border: 1px solid #d5dde8;
+    border-left: 4px solid hsl(37, 91%, 55%);
+}
+
+
+.card img,
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    max-width: 100%;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem 0.25rem 0 0;
+}    
+/* ---------- Tables ---------- */
+
+table {
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #c5d0de;
+    padding: 0.5rem 0.75rem;
+}
+
+caption {
+    font-weight: 600;
+    padding: 0.5rem;
+}
+ul ul {
+    list-style-type: square;
+}
